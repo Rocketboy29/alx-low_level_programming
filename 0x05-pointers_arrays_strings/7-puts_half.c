@@ -2,16 +2,15 @@
 
 /**
  * puts_half - prints half of a string
- * *
+ * 
  * @str: string parameter input
- * *
+ * 
  * Return: Nothing
  */
 
 void puts_half(char *str)
 {
 		int l, n;
-
 
 		for (l = 0; str[l] != '\0'; ++l)
 			;
